@@ -1,0 +1,31 @@
+
+.vscode/
+
+# macOS specific file
+*.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+
+# --- Django Backend Specific ---
+# Database file (development)
+backend/db.sqlite3
+
+# User uploaded media files
+backend/media/
+
+# Python bytecode and cache
+backend/__pycache__/
+backend/**/*.pyc
+
+
+frontend/node_modules/
+
+# Expo generated directory (common)
+frontend/.expo/
+
+# Log files (common)
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
